@@ -1,0 +1,202 @@
+/*/Partnership Page--------------------------------------------------------------------------------------------------------------------/*/    
+    .partners_intro{
+        max-width: fit-content;
+        padding-right: 80px;
+        padding-left: 80px;
+        font-size: 25px;
+    }        
+
+    .partners{
+        display: block;
+        min-height: 100vh;
+        height: 100%;
+        background-color: #059669;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+    .partners_1a_parte{
+        padding-top: 30vh;
+        display: block;
+        min-height: 40vh;
+        align-items: end;
+        text-align: center;
+    }
+
+    .partners_2a_parte{
+        margin-top: 5vh;
+        display: block;
+        margin-bottom: 5vh;
+    }
+
+    .partners_row{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .partner{
+        background-color: rgba(255, 255, 255, 0.75);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .partner_license:hover,.partner_exclusive:hover,.partner:hover{
+        transition: 0.2s;
+        cursor: pointer;
+        background-color: rgb(253, 253, 253);
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.486);
+    }
+    
+    .partner_license:active,.partner_exclusive:active,.partner:active{
+        transition: 0.2s;
+        cursor: pointer;
+        background-color: rgb(244,244,244);
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.486);
+    }
+    
+    .partners_3a_parte{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .partners_4a_parte{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .partner_exclusive{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 250px;
+        height: 120px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+
+    .partner_license{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 200px;
+        height: 90px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+
+    .row{
+        display: flex;
+    }
+
+    .row0{
+        display: flex;
+    }
+
+    .intro_exclusive,.intro_partners,.intro_license{
+        font-weight: bold;
+        font-size: 29px;
+    }
+
+    @media (max-width: 768px) {
+        .partners {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    @media (max-width: 660px) {
+        .partners {
+            display: block;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .row{
+            display: block;
+            width: 100%;
+        }
+
+        .row0{
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .row1{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .partners_row{
+            margin: 0px;
+            margin-bottom: 0px;
+            width: 100%;
+
+        }
+
+        .partners_2a_parte{
+            display: block;
+        }
+        
+        .partner_exclusive{
+            margin-bottom: 10px;
+            width: 100%;
+
+        }
+
+        .partner{
+            width: 100%;
+        }
+
+        .partners_4a_parte{
+            display: block;
+        }
+
+        .partner_license{
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        .partners_1a_parte{
+            padding-top: 20vh;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .partners_intro{
+            font-size: 17px;
+            padding: 0;
+        }
+        
+        .intro_exclusive,.intro_partners,.intro_license{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        
+        .partners_3a_parte {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
